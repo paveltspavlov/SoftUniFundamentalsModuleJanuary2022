@@ -1,35 +1,32 @@
 ﻿using System;
 
-namespace Task2Division
+namespace Task1Ages
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            int number = int.Parse(Console.ReadLine());
-            if (number % 10 == 0)
+
+            int age = int.Parse(Console.ReadLine());
+            if (age >= 0 && age <= 2)
             {
-                Console.WriteLine($"The number is divisible by 10");
+                Console.WriteLine("baby");
             }
-            else if (number % 7 == 0)
+            else if (age >= 3 && age <= 13)
             {
-                Console.WriteLine($"The number is divisible by 7");
+                Console.WriteLine("child");
             }
-            else if (number % 6 == 0)
+            else if (age >= 14 && age <= 19)
             {
-                Console.WriteLine($"The number is divisible by 6");
+                Console.WriteLine("teenager");
             }
-            else if (number % 3 == 0)
+            else if (age >= 20 && age <= 65)
             {
-                Console.WriteLine($"The number is divisible by 3");
+                Console.WriteLine("adult");
             }
-            else if (number % 2 == 0)
+            else if (age >= 66)
             {
-                Console.WriteLine($"The number is divisible by 2");
-            }
-            else
-            {
-                Console.WriteLine($"Not divisible");
+                Console.WriteLine("elder");
             }
         }
     }
