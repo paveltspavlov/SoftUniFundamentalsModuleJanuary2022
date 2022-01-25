@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2Division", "Task2Divis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1Ages", "Task1Age\Task1Ages.csproj", "{3EE75AC9-56C6-41EC-8F43-B2FE8881A96B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3Vacation", "Task3Vacation\Task3Vacation.csproj", "{18978DA0-DB34-4FC8-9DEE-756539D5D725}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3EE75AC9-56C6-41EC-8F43-B2FE8881A96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE75AC9-56C6-41EC-8F43-B2FE8881A96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE75AC9-56C6-41EC-8F43-B2FE8881A96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18978DA0-DB34-4FC8-9DEE-756539D5D725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18978DA0-DB34-4FC8-9DEE-756539D5D725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18978DA0-DB34-4FC8-9DEE-756539D5D725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18978DA0-DB34-4FC8-9DEE-756539D5D725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
