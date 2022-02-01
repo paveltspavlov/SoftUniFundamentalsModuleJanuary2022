@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3Vacation", "Task3Vacat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4PrintAndSum", "Task4PrintAndSum\Task4PrintAndSum.csproj", "{EEB33C6B-D399-4549-A67F-D54D5192525C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5Login", "Task5Login\Task5Login.csproj", "{3EA1E2C3-FE59-4A80-88D7-E37A5609B3BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EEB33C6B-D399-4549-A67F-D54D5192525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB33C6B-D399-4549-A67F-D54D5192525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB33C6B-D399-4549-A67F-D54D5192525C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA1E2C3-FE59-4A80-88D7-E37A5609B3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA1E2C3-FE59-4A80-88D7-E37A5609B3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA1E2C3-FE59-4A80-88D7-E37A5609B3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA1E2C3-FE59-4A80-88D7-E37A5609B3BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
