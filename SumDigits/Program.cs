@@ -7,20 +7,22 @@ namespace SumDigits
         static void Main(string[] args)
         {
             string number = Console.ReadLine();
-            //string numbersArray = Convert.ToString(number);
+          //  string[] numbersArray = new string[number.Length];
             int result = 0;
-            char[] numbers = number.ToCharArray(0,number.Length);
+           // char[] charsArray = new char[numbersArray.Length];
 
-            foreach (char ch in numbers)
+            char[] charArr = number.ToCharArray();  
+            foreach (char ch in charArr)  
+            {  
+                Console.WriteLine(ch);  
+            }   
+
+            for (int i = 0; i < charArr.Length; i++)
             {
-                result = +ch;
-                Console.WriteLine(ch);
-            }
-            
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                int buff = Convert.ToInt32(numbers[i]);
-                result =+ buff;
+                Console.WriteLine(charArr[i]);
+                
+                result +=charArr[i];
+                
             }
             Console.WriteLine(result);
         }
